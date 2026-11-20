@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT COMPANY — Engineering Digital Solutions. Powering What's Next.</title>
+  <meta name="description" content="Custom software development, intelligent automation, cloud architecture, AI solutions, web applications, and enterprise digital transformation services.">
+  <meta name="keywords" content="IT company, custom software development, AI solutions, cloud services, web development, mobile apps, business automation">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       GLOBAL HEADER
+       ========================================================================= -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-link" aria-label="IT COMPANY Homepage">
+        <div class="brand-symbol">
+          <!-- Minimalist Geometric Node Nexus Symbol (Inline SVG, No text) -->
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="24,4 42,14 42,34 24,44 6,34 6,14" stroke="#4F8CFF" stroke-width="2.5" fill="rgba(79, 140, 255, 0.08)" />
+            <circle cx="24" cy="14" r="3.5" fill="#36D6E8" />
+            <circle cx="34" cy="24" r="3.5" fill="#4F8CFF" />
+            <circle cx="24" cy="34" r="3.5" fill="#9B7BFF" />
+            <circle cx="14" cy="24" r="3.5" fill="#36D6E8" />
+            <line x1="24" y1="14" x2="34" y2="24" stroke="#36D6E8" stroke-width="2" />
+            <line x1="34" y1="24" x2="24" y2="34" stroke="#4F8CFF" stroke-width="2" />
+            <line x1="24" y1="34" x2="14" y2="24" stroke="#9B7BFF" stroke-width="2" />
+            <line x1="14" y1="24" x2="24" y2="14" stroke="#36D6E8" stroke-width="2" />
+            <circle cx="24" cy="24" r="2" fill="#FFFFFF" />
+          </svg>
+        </div>
+        <span class="brand-name">IT <span>COMPANY</span></span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <div class="nav-item">
+          <a href="index.html" class="nav-link active">Home</a>
+        </div>
+        <div class="nav-item">
+          <a href="about.html" class="nav-link">About</a>
+        </div>
+        <div class="nav-item">
+          <a href="services.html" class="nav-link" aria-haspopup="true">
+            Services
+            <svg class="dropdown-chevron" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M2 4l4 4 4-4"/>
+            </svg>
+          </a>
+          <div class="dropdown-menu wide" role="menu">
+            <a href="software-development.html" class="dropdown-link" role="menuitem">
+              <svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              <div>Custom Software Development</div>
+            </a>
+            <a href="web-development.html" class="dropdown-link" role="menuitem">
+              <svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              <div>Web Development</div>
+            </a>
+            <a href="mobile-app-development.html" class="dropdown-link" role="menuitem">
+              <svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+              <div>Mobile App Development</div>
+            </a>
+            <a href="ai-solutions.html" class="dropdown-link" role="menuitem">
+              <svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+              <div>AI Solutions</div>
+            </a>
+            <a href="ai-automation.html" class="dropdown-link" role="menuitem">
+              <svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+              <div>AI & Automation</div>
+            </a>
+            <a href="cloud-services.html" class="dropdown-link" role="menuitem">
+              <svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+              <div>Cloud Services</div>
+            </a>
+            <a href="data-analytics.html" class="dropdown-link" role="menuitem">
+              <svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+              <div>Data Analytics & BI</div>
+            </a>
+            <a href="cybersecurity.html" class="dropdown-link" role="menuitem">
+              <svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              <div>Cybersecurity Solutions</div>
+            </a>
+            <a href="ui-ux-design.html" class="dropdown-link" role="menuitem">
+              <svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
+              <div>UI/UX Design</div>
+            </a>
+            <a href="digital-transformation.html" class="dropdown-link" role="menuitem">
+              <svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+              <div>Digital Transformation</div>
+            </a>
+            <a href="it-consulting.html" class="dropdown-link" role="menuitem">
+              <svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+              <div>IT Consulting</div>
+            </a>
+            <a href="services.html" class="dropdown-link" role="menuitem" style="grid-column: span 2; border-top: 1px solid var(--border-color); color: var(--accent-secondary);">
+              <span>Explore All 11 IT Services →</span>
+            </a>
+          </div>
+        </div>
+        
+       
+        <div class="nav-item">
+          <a href="careers.html" class="nav-link">Careers</a>
+        </div>
+        <div class="nav-item">
+          <a href="blog.html" class="nav-link">Blog</a>
+        </div>
+        <div class="nav-item">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <a href="request-quote.html" class="btn btn-primary btn-sm header-cta">Request a Quote</a>
+        <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Navigation -->
+  <div class="mobile-drawer-overlay"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Navigation">
+    <div class="mobile-nav-list">
+      <a href="index.html" class="mobile-nav-link active">Home</a>
+      <a href="about.html" class="mobile-nav-link">About Company</a>
+      <div class="mobile-nav-item">
+        <a href="#" class="mobile-nav-link mobile-submenu-toggle" aria-expanded="false">
+          IT Services <span>▾</span>
+        </a>
+        <div class="mobile-submenu">
+          <a href="services.html" class="mobile-submenu-link">All Services Overview</a>
+          <a href="software-development.html" class="mobile-submenu-link">Custom Software Development</a>
+          <a href="web-development.html" class="mobile-submenu-link">Web Development</a>
+          <a href="mobile-app-development.html" class="mobile-submenu-link">Mobile App Development</a>
+          <a href="ai-solutions.html" class="mobile-submenu-link">AI Solutions</a>
+          <a href="ai-automation.html" class="mobile-submenu-link">AI & Automation</a>
+          <a href="cloud-services.html" class="mobile-submenu-link">Cloud Services</a>
+          <a href="data-analytics.html" class="mobile-submenu-link">Data Analytics & BI</a>
+          <a href="cybersecurity.html" class="mobile-submenu-link">Cybersecurity</a>
+          <a href="ui-ux-design.html" class="mobile-submenu-link">UI/UX Design</a>
+          <a href="digital-transformation.html" class="mobile-submenu-link">Digital Transformation</a>
+          <a href="it-consulting.html" class="mobile-submenu-link">IT Consulting</a>
+        </div>
+      </div>
+      <a href="industries.html" class="mobile-nav-link">Industries</a>
+      <a href="technologies.html" class="mobile-nav-link">Technology Stack</a>
+      <a href="process.html" class="mobile-nav-link">Development Process</a>
+      <a href="portfolio.html" class="mobile-nav-link">Portfolio</a>
+      <a href="case-studies.html" class="mobile-nav-link">Case Studies</a>
+      <a href="careers.html" class="mobile-nav-link">Careers</a>
+      <a href="blog.html" class="mobile-nav-link">Technology Blog</a>
+      <a href="faq.html" class="mobile-nav-link">FAQ</a>
+      <a href="contact.html" class="mobile-nav-link">Contact Us</a>
+    </div>
+    <div style="margin-top: 2rem;">
+      <a href="request-quote.html" class="btn btn-primary" style="width: 100%;">Request a Quote</a>
+    </div>
+  </aside>
+
+  <!-- =========================================================================
+       MAIN CONTENT
+       ========================================================================= -->
+  <main>
+    <!-- SECTION 1: HERO -->
+    <section class="section section-hero">
+      <div class="container">
+        <div class="grid-2 align-center">
+          <div class="reveal">
+            <div class="badge">
+              <span class="badge-dot"></span>
+              Enterprise IT Engineering & Solutions
+            </div>
+            <h1>BUILDING TECHNOLOGY THAT MOVES BUSINESS FORWARD.</h1>
+            <p style="font-size: 1.15rem; margin: 1.5rem 0 2rem 0; color: var(--text-secondary);">
+              From custom software and intelligent automation to scalable digital platforms, we help businesses turn complex challenges into practical technology solutions.
+            </p>
+            <div class="btn-group">
+              <a href="services.html" class="btn btn-primary btn-lg">Explore Our Services</a>
+              <a href="request-quote.html" class="btn btn-secondary btn-lg">Start Your Project</a>
+            </div>
+          </div>
+          <div class="reveal">
+            <!-- Strict Placeholder #01: home-hero-technology.jpg (16:9) -->
+            <div class="img-placeholder-wrapper aspect-16-9">
+              <img src="images/home-hero-technology.jpg" alt="Building Technology That Moves Business Forward — IT COMPANY" class="img-fluid" width="1920" height="1080" loading="eager">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: INTRODUCTION -->
+    <section class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="grid-2 align-center">
+          <div class="reveal">
+            <!-- Strict Placeholder #02: home-intro-architecture.jpg (4:3) -->
+            <div class="img-placeholder-wrapper aspect-4-3">
+              <img src="images/home-intro-collaboration.jpg" alt="Technology Built Around Your Business — IT Architecture & Engineering" class="img-fluid" width="1200" height="900" loading="lazy">
+            </div>
+          </div>
+          <div class="reveal">
+            <div class="badge">About Our Approach</div>
+            <h2>TECHNOLOGY BUILT AROUND YOUR BUSINESS.</h2>
+            <p style="margin: 1.25rem 0;">
+              As a dedicated technology partner, we help businesses plan, design, develop, and continuously improve modern digital solutions. We bridge the gap between ambitious business objectives and robust engineering execution.
+            </p>
+            <p style="margin-bottom: 1.75rem;">
+              Whether upgrading legacy systems, launching cloud-native web portals, or engineering automated workflows, our team focuses on measurable reliability, clean software architecture, and seamless user experiences.
+            </p>
+            <div class="feature-list">
+              <div class="feature-item">
+                <span class="feature-check">✓</span>
+                <span>End-to-end software development lifecycle management</span>
+              </div>
+              <div class="feature-item">
+                <span class="feature-check">✓</span>
+                <span>Vendor-neutral architecture tailored to organizational goals</span>
+              </div>
+              <div class="feature-item">
+                <span class="feature-check">✓</span>
+                <span>Secure, compliant, and maintainable software standards</span>
+              </div>
+            </div>
+            <div style="margin-top: 1.75rem;">
+              <a href="about.html" class="btn btn-secondary">Learn More About Us →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: CORE SERVICES -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="badge">What We Engineer</div>
+          <h2>Comprehensive IT Services</h2>
+          <p>Delivering high-caliber engineering, intelligence, and cloud capability to drive digital transformation.</p>
+        </div>
+
+        <div class="grid-4 reveal">
+          <!-- Service Card 1 -->
+          <div class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            </div>
+            <h3 class="card-title">Custom Software</h3>
+            <p class="card-desc">Bespoke enterprise applications, ERP systems, CRM portals, and workflow engines built for high operational scale.</p>
+            <a href="software-development.html" class="card-link">Learn More <span>→</span></a>
+          </div>
+
+          <!-- Service Card 2 -->
+          <div class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            </div>
+            <h3 class="card-title">Web Development</h3>
+            <p class="card-desc">Modern corporate websites, responsive portals, SaaS interfaces, and performant web applications with clean frontend code.</p>
+            <a href="web-development.html" class="card-link">Learn More <span>→</span></a>
+          </div>
+
+          <!-- Service Card 3 -->
+          <div class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+            </div>
+            <h3 class="card-title">Mobile Apps</h3>
+            <p class="card-desc">High-performance native and cross-platform iOS and Android applications crafted for user retention and business efficiency.</p>
+            <a href="mobile-app-development.html" class="card-link">Learn More <span>→</span></a>
+          </div>
+
+          <!-- Service Card 4 -->
+          <div class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+            </div>
+            <h3 class="card-title">AI Solutions</h3>
+            <p class="card-desc">Practical machine learning, predictive models, enterprise generative AI, and intelligent document extraction tools.</p>
+            <a href="ai-solutions.html" class="card-link">Learn More <span>→</span></a>
+          </div>
+
+          <!-- Service Card 5 -->
+          <div class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+            </div>
+            <h3 class="card-title">Business Automation</h3>
+            <p class="card-desc">Intelligent bots, lead routing, voice assistants, and automated multi-system integrations to reduce manual friction.</p>
+            <a href="ai-automation.html" class="card-link">Learn More <span>→</span></a>
+          </div>
+
+          <!-- Service Card 6 -->
+          <div class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+            </div>
+            <h3 class="card-title">Cloud Services</h3>
+            <p class="card-desc">Architecture migration, multi-cloud strategy, serverless computing, resilient storage, and containerized deployment.</p>
+            <a href="cloud-services.html" class="card-link">Learn More <span>→</span></a>
+          </div>
+
+          <!-- Service Card 7 -->
+          <div class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+            </div>
+            <h3 class="card-title">Data Analytics & BI</h3>
+            <p class="card-desc">Interactive executive dashboards, ETL pipelines, reporting automation, and predictive data intelligence models.</p>
+            <a href="data-analytics.html" class="card-link">Learn More <span>→</span></a>
+          </div>
+
+          <!-- Service Card 8 -->
+          <div class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
+            </div>
+            <h3 class="card-title">UI/UX Design</h3>
+            <p class="card-desc">Intuitive enterprise user interfaces, SaaS design systems, user journeys, wireframes, and production-ready design tokens.</p>
+            <a href="ui-ux-design.html" class="card-link">Learn More <span>→</span></a>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;" class="reveal">
+          <a href="services.html" class="btn btn-outline">View All IT Services Directory →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: TECHNOLOGY AND INNOVATION -->
+    <section class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="badge">Innovation Vectors</div>
+          <h2>TURNING COMPLEX IDEAS INTO DIGITAL SOLUTIONS.</h2>
+          <p>We blend robust engineering discipline with emerging technology paradigms to solve complex operational challenges.</p>
+        </div>
+
+        <div class="grid-3 reveal">
+          <div class="card">
+            <div class="card-icon" style="color: var(--accent-primary);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></div>
+            <h3 class="card-title">Software Engineering</h3>
+            <p class="card-desc">Microservice architectures, modular codebases, containerized micro-APIs, and clean documentation adhering to enterprise development patterns.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon" style="color: var(--accent-secondary);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg></div>
+            <h3 class="card-title">AI & Automation</h3>
+            <p class="card-desc">Intelligent agents, retrieval-augmented generation (RAG), automated customer workflows, and conversational assistants with safety guardrails.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon" style="color: var(--accent-highlight);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg></div>
+            <h3 class="card-title">Cloud Infrastructure</h3>
+            <p class="card-desc">Elastic serverless compute, automated failover topologies, geo-distributed databases, and infrastructure-as-code automation.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon" style="color: var(--accent-secondary);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg></div>
+            <h3 class="card-title">Data Intelligence</h3>
+            <p class="card-desc">Real-time analytics pipelines, automated executive reporting, predictive telemetry, and standardized data governance practices.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon" style="color: var(--accent-primary);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg></div>
+            <h3 class="card-title">Digital Products</h3>
+            <p class="card-desc">B2B SaaS platforms, enterprise client portals, self-service portals, and digital marketplaces engineered for high velocity.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon" style="color: var(--accent-highlight);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
+            <h3 class="card-title">Enterprise Security</h3>
+            <p class="card-desc">Zero-trust principles, automated code scanning, robust encryption at rest and in transit, and defensive posture evaluation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: WHAT WE DELIVER (4 LARGE SOLUTION BLOCKS) -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="badge">Solutions Spectrum</div>
+          <h2>What We Deliver</h2>
+          <p>Proven digital solution archetypes configured to resolve operational bottlenecks.</p>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 4rem;">
+          <!-- Solution Block 1: Digital Products -->
+          <div class="grid-2 align-center reveal">
+            <div>
+              <div class="badge">Category 01</div>
+              <h3>Digital Products & SaaS Platforms</h3>
+              <p style="margin: 1rem 0;">
+                We partner with modern businesses to ideate, prototype, and build scalable digital products from ground zero. From multi-tenant web applications to customer-facing SaaS platforms, we architect software built to grow.
+              </p>
+              <div class="feature-list">
+                <div class="feature-item"><span class="feature-check">✓</span><span>Multi-tenant database and role-based permissions</span></div>
+                <div class="feature-item"><span class="feature-check">✓</span><span>High-performance frontend and lightning-fast page loading</span></div>
+                <div class="feature-item"><span class="feature-check">✓</span><span>Secure billing and third-party webhook integrations</span></div>
+              </div>
+              <div style="margin-top: 1.5rem;">
+                <a href="software-development.html" class="btn btn-primary btn-sm">Explore Digital Products</a>
+              </div>
+            </div>
+            <div>
+              <!-- Strict Placeholder #03: home-deliver-digital-products.jpg (16:10) -->
+              <div class="img-placeholder-wrapper aspect-16-10">
+              <img src="images/home-deliver-digital-products.jpg" alt="Digital Products Engineering & Design — IT COMPANY" class="img-fluid" width="1440" height="900" loading="lazy">
+            </div>
+            </div>
+          </div>
+
+          <!-- Solution Block 2: Enterprise Software -->
+          <div class="grid-2 align-center reveal">
+            <div style="order: 2;">
+              <div class="badge">Category 02</div>
+              <h3>Enterprise Software & Custom ERP/CRM</h3>
+              <p style="margin: 1rem 0;">
+                Eliminate fragmented spreadsheets and siloed processes. We develop customized business management software, inventory tracking systems, and unified CRM hubs tailored to unique operational demands.
+              </p>
+              <div class="feature-list">
+                <div class="feature-item"><span class="feature-check">✓</span><span>Centralized operational data and real-time synchronicity</span></div>
+                <div class="feature-item"><span class="feature-check">✓</span><span>Audit logging, compliance tracking, and granular permissions</span></div>
+                <div class="feature-item"><span class="feature-check">✓</span><span>Seamless integration with existing enterprise legacy databases</span></div>
+              </div>
+              <div style="margin-top: 1.5rem;">
+                <a href="software-development.html" class="btn btn-primary btn-sm">Explore Enterprise Software</a>
+              </div>
+            </div>
+            <div style="order: 1;">
+              <!-- Strict Placeholder #04: home-deliver-enterprise-software.jpg (16:10) -->
+              <div class="img-placeholder-wrapper aspect-16-10">
+              <img src="images/home-deliver-enterprise-software.jpg" alt="Enterprise Software Systems & Cloud Backend — IT COMPANY" class="img-fluid" width="1440" height="900" loading="lazy">
+            </div>
+            </div>
+          </div>
+
+          <!-- Solution Block 3: Intelligent Automation -->
+          <div class="grid-2 align-center reveal">
+            <div>
+              <div class="badge">Category 03</div>
+              <h3>Intelligent Automation & AI Integration</h3>
+              <p style="margin: 1rem 0;">
+                Streamline repetitive operational tasks through automated workflows, AI document processing, smart customer support assistants, and connected API pipelines.
+              </p>
+              <div class="feature-list">
+                <div class="feature-item"><span class="feature-check">✓</span><span>Automated data extraction from invoices and documents</span></div>
+                <div class="feature-item"><span class="feature-check">✓</span><span>24/7 intelligent conversational support agents</span></div>
+                <div class="feature-item"><span class="feature-check">✓</span><span>Human-in-the-loop escalation rules for high-value workflows</span></div>
+              </div>
+              <div style="margin-top: 1.5rem;">
+                <a href="ai-automation.html" class="btn btn-primary btn-sm">Explore Automation Solutions</a>
+              </div>
+            </div>
+            <div>
+              <!-- Strict Placeholder #05: home-deliver-intelligent-automation.jpg (16:10) -->
+              <div class="img-placeholder-wrapper aspect-16-10">
+              <img src="images/home-deliver-automation.jpg" alt="Intelligent Process Automation & Autonomous Workflows — IT COMPANY" class="img-fluid" width="1440" height="900" loading="lazy">
+            </div>
+            </div>
+          </div>
+
+          <!-- Solution Block 4: Business Technology Solutions -->
+          <div class="grid-2 align-center reveal">
+            <div style="order: 2;">
+              <div class="badge">Category 04</div>
+              <h3>Business Technology Solutions & Cloud Strategy</h3>
+              <p style="margin: 1rem 0;">
+                Modernize legacy infrastructure with containerized cloud services, real-time analytics dashboards, API gateways, and proactive cybersecurity architecture.
+              </p>
+              <div class="feature-list">
+                <div class="feature-item"><span class="feature-check">✓</span><span>Cloud migration with minimized downtime and data integrity</span></div>
+                <div class="feature-item"><span class="feature-check">✓</span><span>Interactive business intelligence dashboards and metrics tracking</span></div>
+                <div class="feature-item"><span class="feature-check">✓</span><span>Continuous support, infrastructure monitoring, and security patching</span></div>
+              </div>
+              <div style="margin-top: 1.5rem;">
+                <a href="cloud-services.html" class="btn btn-primary btn-sm">Explore Cloud & Infrastructure</a>
+              </div>
+            </div>
+            <div style="order: 1;">
+              <!-- Strict Placeholder #06: home-deliver-business-solutions.jpg (16:10) -->
+              <div class="img-placeholder-wrapper aspect-16-10">
+              <img src="images/home-deliver-business-tech.jpg" alt="Business Technology Solutions & Strategic Consulting — IT COMPANY" class="img-fluid" width="1440" height="900" loading="lazy">
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: INDUSTRIES WE SERVE -->
+    <section class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="badge">Market Focus</div>
+          <h2>Target Industries</h2>
+          <p>Illustrative industry domains where digital architecture and software automation unlock operational efficiencies.</p>
+        </div>
+
+        <div class="grid-4 reveal">
+          <div class="card">
+            <h4 class="card-title">Healthcare</h4>
+            <p class="card-desc">Patient scheduling portals, secure telemetry sync, telehealth interfaces, and digital clinical records.</p>
+            <a href="industries.html" class="card-link">View Industry Profile →</a>
+          </div>
+          <div class="card">
+            <h4 class="card-title">Education</h4>
+            <p class="card-desc">Learning management systems, student progress tracking, virtual classrooms, and administrative portals.</p>
+            <a href="industries.html" class="card-link">View Industry Profile →</a>
+          </div>
+          <div class="card">
+            <h4 class="card-title">Finance & Fintech</h4>
+            <p class="card-desc">Transaction dashboards, compliance verification workflows, portfolio tools, and algorithmic reporting.</p>
+            <a href="industries.html" class="card-link">View Industry Profile →</a>
+          </div>
+          <div class="card">
+            <h4 class="card-title">Retail & E-commerce</h4>
+            <p class="card-desc">Omnichannel product catalogs, dynamic pricing logic, checkout flows, and inventory synchronization.</p>
+            <a href="industries.html" class="card-link">View Industry Profile →</a>
+          </div>
+          <div class="card">
+            <h4 class="card-title">Real Estate</h4>
+            <p class="card-desc">Property search portals, CRM tenant tracking, automated lease workflows, and listing aggregation systems.</p>
+            <a href="industries.html" class="card-link">View Industry Profile →</a>
+          </div>
+          <div class="card">
+            <h4 class="card-title">Logistics & Supply Chain</h4>
+            <p class="card-desc">Fleet tracking dashboards, warehouse management systems, delivery dispatch, and route optimization.</p>
+            <a href="industries.html" class="card-link">View Industry Profile →</a>
+          </div>
+          <div class="card">
+            <h4 class="card-title">Manufacturing</h4>
+            <p class="card-desc">Production scheduling, predictive maintenance telemetry, supply inventory, and QA inspection logging.</p>
+            <a href="industries.html" class="card-link">View Industry Profile →</a>
+          </div>
+          <div class="card">
+            <h4 class="card-title">Professional Services</h4>
+            <p class="card-desc">Client engagement portals, automated billing, resource planning, and secure client document vaults.</p>
+            <a href="industries.html" class="card-link">View Industry Profile →</a>
+          </div>
+        </div>
+
+        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: var(--text-muted);" class="reveal">
+          * Note: Listed sectors represent illustrative target industry domains for software solutions, not claims of verified historical client contracts.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION 7: OUR DEVELOPMENT PROCESS (INTERACTIVE TIMELINE) -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="badge">Engineering Lifecycle</div>
+          <h2>Our Development Process</h2>
+          <p>A transparent six-stage methodology designed for predictable, high-quality software delivery.</p>
+        </div>
+
+        <div class="process-timeline reveal">
+          <div class="process-step active" data-step="1">
+            <div class="step-number">01</div>
+            <div class="step-title">Discover</div>
+            <div class="step-desc">Analyze business goals, user personas, technical requirements, and project scope.</div>
+          </div>
+          <div class="process-step" data-step="2">
+            <div class="step-number">02</div>
+            <div class="step-title">Plan</div>
+            <div class="step-desc">Establish technical architecture, system schema, milestone roadmaps, and sprint cadences.</div>
+          </div>
+          <div class="process-step" data-step="3">
+            <div class="step-number">03</div>
+            <div class="step-title">Design</div>
+            <div class="step-desc">Create high-fidelity wireframes, interactive UI prototypes, and accessible design systems.</div>
+          </div>
+          <div class="process-step" data-step="4">
+            <div class="step-number">04</div>
+            <div class="step-title">Develop</div>
+            <div class="step-desc">Write clean, tested, modular code adhering to modern standards and CI/CD best practices.</div>
+          </div>
+          <div class="process-step" data-step="5">
+            <div class="step-number">05</div>
+            <div class="step-title">Test</div>
+            <div class="step-desc">Rigorous unit testing, integration checks, cross-device responsiveness, and security review.</div>
+          </div>
+          <div class="process-step" data-step="6">
+            <div class="step-number">06</div>
+            <div class="step-title">Launch & Support</div>
+            <div class="step-desc">Smooth cloud deployment, live telemetry monitoring, training, and continuous maintenance.</div>
+          </div>
+        </div>
+
+        <!-- Interactive Process Detail Display -->
+        <div class="card reveal" style="margin-top: 2rem; border-color: var(--accent-primary);">
+          <h4 id="process-detail-title" style="color: var(--accent-secondary); margin-bottom: 0.5rem;">Step 01 — Discovery & Requirements Architecture</h4>
+          <p id="process-detail-desc" style="margin-bottom: 1rem;">We analyze business workflows, interview technical stakeholders, define core functional objectives, and establish verifiable success benchmarks prior to coding.</p>
+          <div style="font-size: 0.85rem; font-weight: 600; color: var(--white); margin-bottom: 0.5rem;">Key Milestones & Deliverables:</div>
+          <ul id="process-detail-deliverables" class="feature-list" style="margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));">
+            <li><span class="feature-check">✓</span> Technical Scope Document</li>
+            <li><span class="feature-check">✓</span> System Architecture Blueprint</li>
+            <li><span class="feature-check">✓</span> Milestone Roadmap</li>
+            <li><span class="feature-check">✓</span> Security & Compliance Checklist</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: TECHNOLOGY STACK (ILLUSTRATIVE) -->
+    <section class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="badge">Modern Engineering</div>
+          <h2>Technology Stack</h2>
+          <p>Enterprise technologies and frameworks utilized across modern digital projects.</p>
+        </div>
+
+        <div class="grid-4 reveal">
+          <div class="tech-card">
+            <div class="tech-header">
+              <span class="tech-category-title">Frontend</span>
+            </div>
+            <div class="tech-tag-list">
+              <span class="tech-tag">HTML5 / CSS3</span>
+              <span class="tech-tag">JavaScript (ES6+)</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Vue.js</span>
+            </div>
+            <div class="confirmation-marker">⚙ Illustrative / Requires Confirmation</div>
+          </div>
+
+          <div class="tech-card">
+            <div class="tech-header">
+              <span class="tech-category-title">Backend</span>
+            </div>
+            <div class="tech-tag-list">
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">PHP</span>
+              <span class="tech-tag">REST / GraphQL</span>
+            </div>
+            <div class="confirmation-marker">⚙ Illustrative / Requires Confirmation</div>
+          </div>
+
+          <div class="tech-card">
+            <div class="tech-header">
+              <span class="tech-category-title">Mobile</span>
+            </div>
+            <div class="tech-tag-list">
+              <span class="tech-tag">Flutter</span>
+              <span class="tech-tag">React Native</span>
+              <span class="tech-tag">Native Android</span>
+              <span class="tech-tag">Native iOS</span>
+            </div>
+            <div class="confirmation-marker">⚙ Illustrative / Requires Confirmation</div>
+          </div>
+
+          <div class="tech-card">
+            <div class="tech-header">
+              <span class="tech-category-title">Cloud & DevOps</span>
+            </div>
+            <div class="tech-tag-list">
+              <span class="tech-tag">AWS</span>
+              <span class="tech-tag">Google Cloud</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">CI/CD Pipelines</span>
+            </div>
+            <div class="confirmation-marker">⚙ Illustrative / Requires Confirmation</div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;" class="reveal">
+          <a href="technologies.html" class="btn btn-secondary">Explore Complete Technology Directory →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9: FEATURED PROJECTS (DEMO LABELS) -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="badge badge-demo">Concept Showcase</div>
+          <h2>Featured Demo Projects</h2>
+          <p>Demonstration software concepts illustrating frontend execution, system workflows, and user interface styling.</p>
+        </div>
+
+        <div class="grid-3 reveal">
+          <!-- Demo Project 01 -->
+          <div class="card">
+            <!-- Strict Placeholder #07: portfolio-demo-01.jpg (16:10) -->
+            <div class="img-placeholder-wrapper aspect-16-10" style="margin-bottom: 1.25rem;">
+              <img src="images/home-project-01-ecommerce.jpg" alt="Omnichannel E-commerce Logistics Architecture — Demo Project 01" class="img-fluid" width="1440" height="900" loading="lazy">
+            </div>
+            <div class="badge badge-demo" style="align-self: flex-start;">Demo Project 01</div>
+            <h3 class="card-title">E-Commerce Logistics Hub</h3>
+            <p class="card-desc">Concept dashboard featuring live inventory telemetry, automated dispatch routing, and multi-warehouse stock reconciliation.</p>
+            <div class="tech-tag-list" style="margin-bottom: 1rem;">
+              <span class="tech-tag">Web Application</span>
+              <span class="tech-tag">Dashboard</span>
+            </div>
+            <a href="portfolio.html" class="card-link">View Concept Details →</a>
+          </div>
+
+          <!-- Demo Project 02 -->
+          <div class="card">
+            <!-- Strict Placeholder #08: portfolio-demo-02.jpg (16:10) -->
+            <div class="img-placeholder-wrapper aspect-16-10" style="margin-bottom: 1.25rem;">
+              <img src="images/home-project-02-bi-dashboard.jpg" alt="Executive Financial Intelligence Dashboard — Demo Project 02" class="img-fluid" width="1440" height="900" loading="lazy">
+            </div>
+            <div class="badge badge-demo" style="align-self: flex-start;">Demo Project 02</div>
+            <h3 class="card-title">Enterprise Analytics Portal</h3>
+            <p class="card-desc">Interactive business intelligence concept with customizable KPI cards, executive revenue trend charts, and real-time data filters.</p>
+            <div class="tech-tag-list" style="margin-bottom: 1rem;">
+              <span class="tech-tag">Data Intelligence</span>
+              <span class="tech-tag">BI Portal</span>
+            </div>
+            <a href="portfolio.html" class="card-link">View Concept Details →</a>
+          </div>
+
+          <!-- Demo Project 03 -->
+          <div class="card">
+            <!-- Strict Placeholder #09: portfolio-demo-03.jpg (16:10) -->
+            <div class="img-placeholder-wrapper aspect-16-10" style="margin-bottom: 1.25rem;">
+              <img src="images/home-project-03-telehealth.jpg" alt="Compliant Telehealth & Biometric Platform — Demo Project 03" class="img-fluid" width="1440" height="900" loading="lazy">
+            </div>
+            <div class="badge badge-demo" style="align-self: flex-start;">Demo Project 03</div>
+            <h3 class="card-title">AI Support Automation Interface</h3>
+            <p class="card-desc">Customer workflow concept combining automated natural language ticket classification with human-agent escalation queues.</p>
+            <div class="tech-tag-list" style="margin-bottom: 1rem;">
+              <span class="tech-tag">AI Automation</span>
+              <span class="tech-tag">SaaS Interface</span>
+            </div>
+            <a href="portfolio.html" class="card-link">View Concept Details →</a>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;" class="reveal">
+          <a href="portfolio.html" class="btn btn-secondary">Browse All Portfolio Concepts →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 10: WHY CHOOSE US (6 FEATURE BLOCKS) -->
+    <section class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="badge">Value Proposition</div>
+          <h2>Why Choose Us?</h2>
+          <p>Our commitment to software craftsmanship, transparent communication, and engineering excellence.</p>
+        </div>
+
+        <div class="grid-3 reveal">
+          <div class="card">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg></div>
+            <h3 class="card-title">Business-Focused Approach</h3>
+            <p class="card-desc">We prioritize business mechanics and real-world workflows rather than engineering technology for its own sake.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg></div>
+            <h3 class="card-title">Scalable Architecture</h3>
+            <p class="card-desc">Every system is modularly planned to handle user growth, data volume spikes, and continuous feature integration.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
+            <h3 class="card-title">User-Centered Design</h3>
+            <p class="card-desc">Intuitive, responsive user journeys that reduce onboarding friction, boost adoption, and deliver clarity.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+            <h3 class="card-title">Quality-Focused Development</h3>
+            <p class="card-desc">Standardized code reviews, automated CI/CD unit testing, performance budgeting, and cross-browser audits.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></div>
+            <h3 class="card-title">Clear Communication</h3>
+            <p class="card-desc">Transparent milestone tracking, organized deliverables, regular sprint reviews, and direct developer access.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
+            <h3 class="card-title">Long-Term Technology Support</h3>
+            <p class="card-desc">Ongoing maintenance, infrastructure monitoring, security patching, and proactive version updates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 11: FINAL CTA -->
+    <section class="section" style="text-align: center;">
+      <div class="container container-narrow reveal">
+        <div class="badge">Start The Conversation</div>
+        <h2>LET'S BUILD SOMETHING MEANINGFUL.</h2>
+        <p style="font-size: 1.15rem; margin: 1.5rem 0 2.5rem 0;">
+          Have an idea, a business challenge, or a digital product in mind? Let's explore what technology can make possible.
+        </p>
+        <div class="btn-group" style="justify-content: center;">
+          <a href="request-quote.html" class="btn btn-primary btn-lg">Discuss Your Project</a>
+          <a href="contact.html" class="btn btn-secondary btn-lg">Contact Our Team</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       GLOBAL FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-link">
+            <div class="brand-symbol">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="24,4 42,14 42,34 24,44 6,34 6,14" stroke="#4F8CFF" stroke-width="2.5" fill="rgba(79, 140, 255, 0.08)" />
+                <circle cx="24" cy="14" r="3.5" fill="#36D6E8" />
+                <circle cx="34" cy="24" r="3.5" fill="#4F8CFF" />
+                <circle cx="24" cy="34" r="3.5" fill="#9B7BFF" />
+                <circle cx="14" cy="24" r="3.5" fill="#36D6E8" />
+                <line x1="24" y1="14" x2="34" y2="24" stroke="#36D6E8" stroke-width="2" />
+                <line x1="34" y1="24" x2="24" y2="34" stroke="#4F8CFF" stroke-width="2" />
+                <line x1="24" y1="34" x2="14" y2="24" stroke="#9B7BFF" stroke-width="2" />
+                <line x1="14" y1="24" x2="24" y2="14" stroke="#36D6E8" stroke-width="2" />
+                <circle cx="24" cy="24" r="2" fill="#FFFFFF" />
+              </svg>
+            </div>
+            <span class="brand-name">IT <span>COMPANY</span></span>
+          </a>
+          <p style="font-weight: 600; color: var(--accent-secondary); margin-top: 0.8rem; font-size: 0.82rem; letter-spacing: 0.05em;">
+            "ENGINEERING DIGITAL SOLUTIONS. POWERING WHAT'S NEXT."
+          </p>
+          <p>
+            A modern technology solutions provider specializing in custom software development, cloud infrastructure, AI solutions, and digital enterprise modernization.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-col-title">IT Services</div>
+          <div class="footer-nav">
+            <a href="software-development.html" class="footer-link">Software Development</a>
+            <a href="web-development.html" class="footer-link">Web Development</a>
+            <a href="mobile-app-development.html" class="footer-link">Mobile Apps</a>
+            <a href="ai-solutions.html" class="footer-link">AI Solutions</a>
+            <a href="ai-automation.html" class="footer-link">AI Automation</a>
+            <a href="cloud-services.html" class="footer-link">Cloud Services</a>
+            <a href="data-analytics.html" class="footer-link">Data Analytics</a>
+            <a href="cybersecurity.html" class="footer-link">Cybersecurity</a>
+            <a href="ui-ux-design.html" class="footer-link">UI/UX Design</a>
+            <a href="digital-transformation.html" class="footer-link">Digital Transformation</a>
+            <a href="it-consulting.html" class="footer-link">IT Consulting</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Industries</div>
+          <div class="footer-nav">
+            <a href="industries.html" class="footer-link">Healthcare</a>
+            <a href="industries.html" class="footer-link">Education</a>
+            <a href="industries.html" class="footer-link">Finance & Fintech</a>
+            <a href="industries.html" class="footer-link">Retail & E-commerce</a>
+            <a href="industries.html" class="footer-link">Real Estate</a>
+            <a href="industries.html" class="footer-link">Logistics & Supply</a>
+            <a href="industries.html" class="footer-link">Manufacturing</a>
+            <a href="industries.html" class="footer-link">Professional Services</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Company</div>
+          <div class="footer-nav">
+            <a href="about.html" class="footer-link">About Us</a>
+            <a href="technologies.html" class="footer-link">Technology Stack</a>
+            <a href="process.html" class="footer-link">Development Process</a>
+            <a href="portfolio.html" class="footer-link">Portfolio</a>
+            <a href="case-studies.html" class="footer-link">Case Studies</a>
+            <a href="careers.html" class="footer-link">Careers</a>
+            <a href="blog.html" class="footer-link">Tech Insights</a>
+            <a href="faq.html" class="footer-link">FAQ</a>
+            <a href="contact.html" class="footer-link">Contact</a>
+            <a href="request-quote.html" class="footer-link">Request a Quote</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Demo Contact</div>
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span>Phone: 0000000000</span>
+            </div>
+            <div class="contact-info-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span>Alt Phone: 0000000000</span>
+            </div>
+            <div class="contact-info-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>Email: demo@example.com</span>
+            </div>
+            <div class="contact-info-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000.</span>
+            </div>
+            <div class="contact-info-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Mon–Fri: 9:00 AM – 6:00 PM<br>Sat: 10:00 AM – 2:00 PM | Sun: Closed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 IT COMPANY. All rights reserved. Professional Demonstration Technology Website.
+        </div>
+        <div style="font-size: 0.8rem; color: var(--text-muted);">
+          All business specifications, metrics, and data represent customizable illustrative placeholders.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to Top">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <!-- Interactive Demo Modal Dialog -->
+  <div class="modal-overlay" id="demo-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <div class="modal-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      </div>
+      <h3 class="modal-title" id="modal-title">Notification</h3>
+      <p class="modal-desc" id="modal-message">Your demo request has been processed.</p>
+      <button class="btn btn-primary modal-close" id="modal-close-btn">Acknowledge</button>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

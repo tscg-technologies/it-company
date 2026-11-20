@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technology Stack & Frameworks — IT COMPANY</title>
+  <meta name="description" content="Explore our illustrative engineering technology stack: frontend, backend, mobile, database systems, cloud platforms, DevOps, and machine learning toolkits.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- GLOBAL HEADER -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-link" aria-label="IT COMPANY Homepage">
+        <div class="brand-symbol">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="24,4 42,14 42,34 24,44 6,34 6,14" stroke="#4F8CFF" stroke-width="2.5" fill="rgba(79, 140, 255, 0.08)" />
+            <circle cx="24" cy="14" r="3.5" fill="#36D6E8" />
+            <circle cx="34" cy="24" r="3.5" fill="#4F8CFF" />
+            <circle cx="24" cy="34" r="3.5" fill="#9B7BFF" />
+            <circle cx="14" cy="24" r="3.5" fill="#36D6E8" />
+            <line x1="24" y1="14" x2="34" y2="24" stroke="#36D6E8" stroke-width="2" />
+            <line x1="34" y1="24" x2="24" y2="34" stroke="#4F8CFF" stroke-width="2" />
+            <line x1="24" y1="34" x2="14" y2="24" stroke="#9B7BFF" stroke-width="2" />
+            <line x1="14" y1="24" x2="24" y2="14" stroke="#36D6E8" stroke-width="2" />
+            <circle cx="24" cy="24" r="2" fill="#FFFFFF" />
+          </svg>
+        </div>
+        <span class="brand-name">IT <span>COMPANY</span></span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
+        <div class="nav-item"><a href="about.html" class="nav-link">About</a></div>
+        <div class="nav-item">
+          <a href="services.html" class="nav-link">Services <svg class="dropdown-chevron" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4l4 4 4-4"/></svg></a>
+          <div class="dropdown-menu wide" role="menu">
+            <a href="software-development.html" class="dropdown-link"><svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg><div>Custom Software Development</div></a>
+            <a href="web-development.html" class="dropdown-link"><svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg><div>Web Development</div></a>
+            <a href="mobile-app-development.html" class="dropdown-link"><svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg><div>Mobile App Development</div></a>
+            <a href="ai-solutions.html" class="dropdown-link"><svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg><div>AI Solutions</div></a>
+            <a href="ai-automation.html" class="dropdown-link"><svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg><div>AI & Automation</div></a>
+            <a href="cloud-services.html" class="dropdown-link"><svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg><div>Cloud Services</div></a>
+            <a href="data-analytics.html" class="dropdown-link"><svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg><div>Data Analytics & BI</div></a>
+            <a href="cybersecurity.html" class="dropdown-link"><svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg><div>Cybersecurity</div></a>
+            <a href="ui-ux-design.html" class="dropdown-link"><svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg><div>UI/UX Design</div></a>
+            <a href="digital-transformation.html" class="dropdown-link"><svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><div>Digital Transformation</div></a>
+            <a href="it-consulting.html" class="dropdown-link"><svg class="dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg><div>IT Consulting</div></a>
+            <a href="services.html" class="dropdown-link" style="grid-column: span 2; border-top: 1px solid var(--border-color); color: var(--accent-secondary);"><span>Explore All 11 IT Services →</span></a>
+          </div>
+        </div>
+        <div class="nav-item"><a href="industries.html" class="nav-link">Industries</a></div>
+        <div class="nav-item"><a href="technologies.html" class="nav-link active">Technologies</a></div>
+        <div class="nav-item"><a href="process.html" class="nav-link">Process</a></div>
+        <div class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></div>
+        <div class="nav-item"><a href="careers.html" class="nav-link">Careers</a></div>
+        <div class="nav-item"><a href="blog.html" class="nav-link">Blog</a></div>
+        <div class="nav-item"><a href="contact.html" class="nav-link">Contact</a></div>
+      </nav>
+
+      <div class="header-actions">
+        <a href="request-quote.html" class="btn btn-primary btn-sm header-cta">Request a Quote</a>
+        <button class="mobile-toggle" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-overlay"></div>
+  <aside class="mobile-drawer">
+    <div class="mobile-nav-list">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about.html" class="mobile-nav-link">About Company</a>
+      <div class="mobile-nav-item">
+        <a href="#" class="mobile-nav-link mobile-submenu-toggle">IT Services <span>▾</span></a>
+        <div class="mobile-submenu">
+          <a href="services.html" class="mobile-submenu-link">All Services Overview</a>
+          <a href="software-development.html" class="mobile-submenu-link">Custom Software Development</a>
+          <a href="web-development.html" class="mobile-submenu-link">Web Development</a>
+          <a href="mobile-app-development.html" class="mobile-submenu-link">Mobile App Development</a>
+          <a href="ai-solutions.html" class="mobile-submenu-link">AI Solutions</a>
+          <a href="ai-automation.html" class="mobile-submenu-link">AI & Automation</a>
+          <a href="cloud-services.html" class="mobile-submenu-link">Cloud Services</a>
+          <a href="data-analytics.html" class="mobile-submenu-link">Data Analytics & BI</a>
+          <a href="cybersecurity.html" class="mobile-submenu-link">Cybersecurity</a>
+          <a href="ui-ux-design.html" class="mobile-submenu-link">UI/UX Design</a>
+          <a href="digital-transformation.html" class="mobile-submenu-link">Digital Transformation</a>
+          <a href="it-consulting.html" class="mobile-submenu-link">IT Consulting</a>
+        </div>
+      </div>
+      <a href="industries.html" class="mobile-nav-link">Industries</a>
+      <a href="technologies.html" class="mobile-nav-link active">Technology Stack</a>
+      <a href="process.html" class="mobile-nav-link">Development Process</a>
+      <a href="portfolio.html" class="mobile-nav-link">Portfolio</a>
+      <a href="case-studies.html" class="mobile-nav-link">Case Studies</a>
+      <a href="careers.html" class="mobile-nav-link">Careers</a>
+      <a href="blog.html" class="mobile-nav-link">Technology Blog</a>
+      <a href="faq.html" class="mobile-nav-link">FAQ</a>
+      <a href="contact.html" class="mobile-nav-link">Contact Us</a>
+    </div>
+    <div style="margin-top: 2rem;">
+      <a href="request-quote.html" class="btn btn-primary" style="width: 100%;">Request a Quote</a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="section section-subpage-hero">
+      <div class="container">
+        <div class="breadcrumbs">
+          <a href="index.html">Home</a>
+          <span class="breadcrumbs-separator">/</span>
+          <span>Technology Stack</span>
+        </div>
+        <div class="badge">Modern Engineering Matrix</div>
+        <h1>Enterprise Technology Stack</h1>
+        <p style="max-width: 800px; margin-top: 1rem; font-size: 1.15rem;">
+          An illustrative index of engineering frameworks, databases, cloud platforms, and tools utilized across modern enterprise digital solutions.
+        </p>
+      </div>
+    </section>
+
+    <!-- INTRO BANNER -->
+    <section class="section" style="padding-bottom: 2rem;">
+      <div class="container">
+        <!-- Strict Placeholder #33: technologies-hero-stack.jpg (16:9) -->
+        <div class="img-placeholder-wrapper aspect-16-9 reveal" style="max-height: 380px;">
+              <img src="images/technologies-hero-stack.jpg" alt="Enterprise Technology Stack & Engineering Ecosystem — IT COMPANY" class="img-fluid" width="1920" height="1080" loading="eager">
+            </div>
+      </div>
+    </section>
+
+    <!-- FILTER TABS & TECH DIRECTORY -->
+    <section class="section">
+      <div class="container">
+        <div class="filter-tabs reveal">
+          <button class="filter-btn tech-filter-btn active" data-tech-category="all">All Technologies</button>
+          <button class="filter-btn tech-filter-btn" data-tech-category="frontend">Frontend</button>
+          <button class="filter-btn tech-filter-btn" data-tech-category="backend">Backend</button>
+          <button class="filter-btn tech-filter-btn" data-tech-category="mobile">Mobile</button>
+          <button class="filter-btn tech-filter-btn" data-tech-category="databases">Databases</button>
+          <button class="filter-btn tech-filter-btn" data-tech-category="cloud">Cloud & DevOps</button>
+          <button class="filter-btn tech-filter-btn" data-tech-category="ai">AI & Data</button>
+        </div>
+
+        <div class="tech-grid reveal">
+
+          <!-- 1. Frontend -->
+          <div class="tech-card" data-tech-category="frontend">
+            <div class="tech-header">
+              <span class="tech-category-title">Frontend Engineering</span>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1rem;">
+              Responsive, accessible browser interfaces crafted with high rendering velocity and minimal runtime overhead.
+            </p>
+            <div class="tech-tag-list">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript (ES6+)</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Angular</span>
+              <span class="tech-tag">Vue.js</span>
+            </div>
+            <div class="confirmation-marker">⚙ Illustrative / Requires Confirmation</div>
+          </div>
+
+          <!-- 2. Backend -->
+          <div class="tech-card" data-tech-category="backend">
+            <div class="tech-header">
+              <span class="tech-category-title">Backend Architecture</span>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1rem;">
+              Scalable server runtimes, REST/GraphQL endpoints, microservice routing, and asynchronous job workers.
+            </p>
+            <div class="tech-tag-list">
+              <span class="tech-tag">PHP</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">.NET</span>
+              <span class="tech-tag">RESTful APIs</span>
+              <span class="tech-tag">GraphQL</span>
+            </div>
+            <div class="confirmation-marker">⚙ Illustrative / Requires Confirmation</div>
+          </div>
+
+          <!-- 3. Mobile -->
+          <div class="tech-card" data-tech-category="mobile">
+            <div class="tech-header">
+              <span class="tech-category-title">Mobile Development</span>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1rem;">
+              Cross-platform and native runtimes for iOS and Android devices with offline caching and background synchronization.
+            </p>
+            <div class="tech-tag-list">
+              <span class="tech-tag">Flutter</span>
+              <span class="tech-tag">React Native</span>
+              <span class="tech-tag">Native Android (Kotlin)</span>
+              <span class="tech-tag">Native iOS (Swift)</span>
+            </div>
+            <div class="confirmation-marker">⚙ Illustrative / Requires Confirmation</div>
+          </div>
+
+          <!-- 4. Databases -->
+          <div class="tech-card" data-tech-category="databases">
+            <div class="tech-header">
+              <span class="tech-category-title">Database Systems</span>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1rem;">
+              ACID-compliant relational engines, document stores, and in-memory caches configured for sub-millisecond lookups.
+            </p>
+            <div class="tech-tag-list">
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">Redis</span>
+            </div>
+            <div class="confirmation-marker">⚙ Illustrative / Requires Confirmation</div>
+          </div>
+
+          <!-- 5. Cloud & DevOps -->
+          <div class="tech-card" data-tech-category="cloud">
+            <div class="tech-header">
+              <span class="tech-category-title">Cloud Infrastructure & DevOps</span>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1rem;">
+              Declarative infrastructure as code, automated continuous deployment pipelines, and isolated virtual networks.
+            </p>
+            <div class="tech-tag-list">
+              <span class="tech-tag">AWS</span>
+              <span class="tech-tag">Microsoft Azure</span>
+              <span class="tech-tag">Google Cloud (GCP)</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">Git</span>
+              <span class="tech-tag">CI/CD Pipelines</span>
+            </div>
+            <div class="confirmation-marker">⚙ Illustrative / Requires Confirmation</div>
+          </div>
+
+          <!-- 6. AI & Data -->
+          <div class="tech-card" data-tech-category="ai">
+            <div class="tech-header">
+              <span class="tech-category-title">AI & Data Analytics</span>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1rem;">
+              Machine learning frameworks, vector retrieval pipelines, executive business intelligence dashboards, and NLP tools.
+            </p>
+            <div class="tech-tag-list">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Machine Learning</span>
+              <span class="tech-tag">Generative AI</span>
+              <span class="tech-tag">Power BI</span>
+              <span class="tech-tag">Data Analytics</span>
+            </div>
+            <div class="confirmation-marker">⚙ Illustrative / Requires Confirmation</div>
+          </div>
+
+        </div>
+
+        <div class="card reveal" style="margin-top: 3.5rem; background: var(--bg-secondary); border-color: var(--accent-highlight);">
+          <div class="badge badge-demo">Technology Stack Disclaimer</div>
+          <p style="font-size: 0.92rem; color: var(--text-secondary);">
+            <strong>Notice:</strong> These categories represent an illustrative spectrum of industry-standard technologies. The IT company does not claim to actively implement every listed technology simultaneously on every project. Each technology listing contains an editable confirmation marker and requires client verification prior to publishing production marketing materials.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- GLOBAL FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-link">
+            <div class="brand-symbol">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="24,4 42,14 42,34 24,44 6,34 6,14" stroke="#4F8CFF" stroke-width="2.5" fill="rgba(79, 140, 255, 0.08)" />
+                <circle cx="24" cy="14" r="3.5" fill="#36D6E8" />
+                <circle cx="34" cy="24" r="3.5" fill="#4F8CFF" />
+                <circle cx="24" cy="34" r="3.5" fill="#9B7BFF" />
+                <circle cx="14" cy="24" r="3.5" fill="#36D6E8" />
+                <line x1="24" y1="14" x2="34" y2="24" stroke="#36D6E8" stroke-width="2" />
+                <line x1="34" y1="24" x2="24" y2="34" stroke="#4F8CFF" stroke-width="2" />
+                <line x1="24" y1="34" x2="14" y2="24" stroke="#9B7BFF" stroke-width="2" />
+                <line x1="14" y1="24" x2="24" y2="14" stroke="#36D6E8" stroke-width="2" />
+                <circle cx="24" cy="24" r="2" fill="#FFFFFF" />
+              </svg>
+            </div>
+            <span class="brand-name">IT <span>COMPANY</span></span>
+          </a>
+          <p style="font-weight: 600; color: var(--accent-secondary); margin-top: 0.8rem; font-size: 0.82rem; letter-spacing: 0.05em;">
+            "ENGINEERING DIGITAL SOLUTIONS. POWERING WHAT'S NEXT."
+          </p>
+          <p>A modern technology solutions provider specializing in custom software development, cloud infrastructure, AI solutions, and digital enterprise modernization.</p>
+        </div>
+
+        <div>
+          <div class="footer-col-title">IT Services</div>
+          <div class="footer-nav">
+            <a href="software-development.html" class="footer-link">Software Development</a>
+            <a href="web-development.html" class="footer-link">Web Development</a>
+            <a href="mobile-app-development.html" class="footer-link">Mobile Apps</a>
+            <a href="ai-solutions.html" class="footer-link">AI Solutions</a>
+            <a href="ai-automation.html" class="footer-link">AI Automation</a>
+            <a href="cloud-services.html" class="footer-link">Cloud Services</a>
+            <a href="data-analytics.html" class="footer-link">Data Analytics</a>
+            <a href="cybersecurity.html" class="footer-link">Cybersecurity</a>
+            <a href="ui-ux-design.html" class="footer-link">UI/UX Design</a>
+            <a href="digital-transformation.html" class="footer-link">Digital Transformation</a>
+            <a href="it-consulting.html" class="footer-link">IT Consulting</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Industries</div>
+          <div class="footer-nav">
+            <a href="industries.html" class="footer-link">Healthcare</a>
+            <a href="industries.html" class="footer-link">Education</a>
+            <a href="industries.html" class="footer-link">Finance & Fintech</a>
+            <a href="industries.html" class="footer-link">Retail & E-commerce</a>
+            <a href="industries.html" class="footer-link">Real Estate</a>
+            <a href="industries.html" class="footer-link">Logistics & Supply</a>
+            <a href="industries.html" class="footer-link">Manufacturing</a>
+            <a href="industries.html" class="footer-link">Professional Services</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Company</div>
+          <div class="footer-nav">
+            <a href="about.html" class="footer-link">About Us</a>
+            <a href="technologies.html" class="footer-link">Technology Stack</a>
+            <a href="process.html" class="footer-link">Development Process</a>
+            <a href="portfolio.html" class="footer-link">Portfolio</a>
+            <a href="case-studies.html" class="footer-link">Case Studies</a>
+            <a href="careers.html" class="footer-link">Careers</a>
+            <a href="blog.html" class="footer-link">Tech Insights</a>
+            <a href="faq.html" class="footer-link">FAQ</a>
+            <a href="contact.html" class="footer-link">Contact</a>
+            <a href="request-quote.html" class="footer-link">Request a Quote</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Demo Contact</div>
+          <div class="contact-info-list">
+            <div class="contact-info-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><span>Phone: 0000000000</span></div>
+            <div class="contact-info-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><span>Alt Phone: 0000000000</span></div>
+            <div class="contact-info-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><span>Email: demo@example.com</span></div>
+            <div class="contact-info-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg><span>Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000.</span></div>
+            <div class="contact-info-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg><span>Mon–Fri: 9:00 AM – 6:00 PM<br>Sat: 10:00 AM – 2:00 PM | Sun: Closed</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 IT COMPANY. All rights reserved. Professional Demonstration Technology Website.</div>
+        <div style="font-size: 0.8rem; color: var(--text-muted);">All business specifications, metrics, and data represent customizable illustrative placeholders.</div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to Top"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg></button>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
